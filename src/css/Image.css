@@ -1,0 +1,36 @@
+.image-selector-container {
+  height: 100%;
+}
+
+.image-upload-container {
+  border: 2px dashed gray;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.image-upload-container input {
+  text-align: center;
+}
+
+.image-preview-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.image-preview {
+  max-width: 300px;
+  height: auto;
+  margin-bottom: 1rem;
+}
+
+.reset-button {
+  background-color: #f44336;
+  color: white;
+  border: none;
+  padding: 0.5rem 1rem;
+  cursor: pointer;
+  border-radius: 8px;
+}
